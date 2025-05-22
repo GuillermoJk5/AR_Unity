@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="fallout" size="1.000000 0.525556" />
+    <ImageTarget name="Mario" size="1.000000 1.000000" />
+    <ImageTarget name="sonic_the_hedgehog" size="1.000000 0.387500" />
+    <ImageTarget name="bethesda" size="1.000000 1.000000" />
+    <ImageTarget name="valve-logo" size="1.000000 0.665833" />
+    <ImageTarget name="skyrim-icon-1" size="1.000000 1.000000" />
+    <ImageTarget name="border" size="1.000000 0.743164" />
+    <ImageTarget name="bio" size="1.000000 1.000000" />
+    <ImageTarget name="hell" size="1.000000 1.000278" />
+    <ImageTarget name="HA" size="1.000000 0.978947" />
+  </Tracking>
+</QCARConfig>
