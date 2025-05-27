@@ -236,6 +236,44 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 320858236}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!114 &320858241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320858234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 320858236}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Mario
+  mDatasetName: Vuforia/BD_01.xml
+  mCastedBehaviour: {fileID: 320858236}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &320858242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320858234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 320858236}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Mario
+  mDatasetName: Vuforia/BD_01.xml
+  mCastedBehaviour: {fileID: 320858236}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &499736198 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
@@ -253,6 +291,44 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &499736204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499736198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 499736201}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: fallout
+  mDatasetName: Vuforia/BD_01.xml
+  mCastedBehaviour: {fileID: 499736201}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &499736207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499736198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 499736201}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: fallout
+  mDatasetName: Vuforia/BD_01.xml
+  mCastedBehaviour: {fileID: 499736201}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &499736208
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -383,7 +459,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -272.2
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
       propertyPath: m_LocalPosition.y
@@ -445,6 +521,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1808871374}
+    - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1808871378}
+    - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1808871377}
   m_SourcePrefab: {fileID: 100100000, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
 --- !u!1001 &1367885144
 PrefabInstance:
@@ -472,7 +554,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -35
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
       propertyPath: m_LocalPosition.y
@@ -522,14 +604,19 @@ PrefabInstance:
       propertyPath: mTrackableName
       value: sonic_the_hedgehog
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 4470639873778139544, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1674880870}
+    - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1674880874}
+    - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1674880873}
   m_SourcePrefab: {fileID: 100100000, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
 --- !u!1 &1374826259
 GameObject:
@@ -645,7 +732,7 @@ Transform:
   m_GameObject: {fileID: 1374826259}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70724046, y: -0, z: -0, w: 0.70697314}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 30.04, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -668,6 +755,44 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1674880870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674880866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1674880868}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: sonic_the_hedgehog
+  mDatasetName: Vuforia/BD_01.xml
+  mCastedBehaviour: {fileID: 1674880868}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &1674880873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674880866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1674880868}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: sonic_the_hedgehog
+  mDatasetName: Vuforia/BD_01.xml
+  mCastedBehaviour: {fileID: 1674880868}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &1674880874
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -721,6 +846,44 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 1808871371}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!114 &1808871377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808871369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1808871371}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: bethesda
+  mDatasetName: Vuforia/BD_01.xml
+  mCastedBehaviour: {fileID: 1808871371}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &1808871378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808871369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1808871371}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: bethesda
+  mDatasetName: Vuforia/BD_01.xml
+  mCastedBehaviour: {fileID: 1808871371}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &1934154586
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -747,7 +910,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 287
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
       propertyPath: m_LocalPosition.y
@@ -805,6 +968,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 320858238}
+    - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 320858242}
+    - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 320858241}
   m_SourcePrefab: {fileID: 100100000, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
 --- !u!1001 &2010807969
 PrefabInstance:
@@ -832,7 +1001,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1601
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
       propertyPath: m_LocalPosition.y
@@ -898,6 +1067,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2129568348}
+    - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2129568352}
+    - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2129568351}
   m_SourcePrefab: {fileID: 100100000, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
 --- !u!1 &2129568343 stripped
 GameObject:
@@ -916,6 +1091,44 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &2129568348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129568343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 2129568345}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: bio
+  mDatasetName: Vuforia/BD_01.xml
+  mCastedBehaviour: {fileID: 2129568345}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &2129568351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129568343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 2129568345}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: bio
+  mDatasetName: Vuforia/BD_01.xml
+  mCastedBehaviour: {fileID: 2129568345}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &2129568352
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -972,7 +1185,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 380
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1034,6 +1247,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 499736204}
+    - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 499736208}
+    - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 499736207}
   m_SourcePrefab: {fileID: 100100000, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
