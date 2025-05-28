@@ -217,45 +217,7 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 8a9a760f95896c34689febc965510927, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &320858238
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 320858234}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 320858236}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Mario
-  mDatasetName: Vuforia/BD_01.xml
-  mCastedBehaviour: {fileID: 320858236}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &320858241
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 320858234}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 320858236}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Mario
-  mDatasetName: Vuforia/BD_01.xml
-  mCastedBehaviour: {fileID: 320858236}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &320858242
+--- !u!114 &320858239
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -309,42 +271,123 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 499736201}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
---- !u!114 &499736207
+--- !u!1001 &608967110
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 118812896882606013, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 118812896882606013, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_IntArgument
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_Name
+      value: SkyrimLogo
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5932852174287704190, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: mHeight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5932852174287704190, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: mPreview
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5932852174287704190, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: mAspectRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5932852174287704190, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: mTrackableName
+      value: skyrim-icon-1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 608967115}
+  m_SourcePrefab: {fileID: 100100000, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+--- !u!1 &608967111 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+  m_PrefabInstance: {fileID: 608967110}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &608967112 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5932852174287704190, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+  m_PrefabInstance: {fileID: 608967110}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608967111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1631628248, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &608967115
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499736198}
+  m_GameObject: {fileID: 608967111}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 499736201}
+  mObserverBehaviour: {fileID: 608967112}
   mHiddenRoot: {fileID: 0}
-  mTargetName: fallout
+  mTargetName: skyrim-icon-1
   mDatasetName: Vuforia/BD_01.xml
-  mCastedBehaviour: {fileID: 499736201}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &499736208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499736198}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 499736201}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: fallout
-  mDatasetName: Vuforia/BD_01.xml
-  mCastedBehaviour: {fileID: 499736201}
+  mCastedBehaviour: {fileID: 608967112}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
 --- !u!1 &1126039248
@@ -521,12 +564,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1808871374}
-    - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1808871378}
-    - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1808871377}
   m_SourcePrefab: {fileID: 100100000, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
 --- !u!1001 &1367885144
 PrefabInstance:
@@ -610,13 +647,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1674880870}
-    - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1674880874}
-    - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1674880873}
+      addedObject: {fileID: 1674880871}
   m_SourcePrefab: {fileID: 100100000, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
 --- !u!1 &1374826259
 GameObject:
@@ -738,6 +769,125 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1001 &1462239219
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 118812896882606013, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 118812896882606013, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_IntArgument
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_Name
+      value: BorderLogo
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5932852174287704190, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: mHeight
+      value: 0.743164
+      objectReference: {fileID: 0}
+    - target: {fileID: 5932852174287704190, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: mPreview
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5932852174287704190, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: mAspectRatio
+      value: 0.743164
+      objectReference: {fileID: 0}
+    - target: {fileID: 5932852174287704190, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: mTrackableName
+      value: border
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1462239224}
+  m_SourcePrefab: {fileID: 100100000, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+--- !u!1 &1462239220 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+  m_PrefabInstance: {fileID: 1462239219}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1462239221 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5932852174287704190, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+  m_PrefabInstance: {fileID: 1462239219}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462239220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1631628248, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1462239224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462239220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1462239221}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: border
+  mDatasetName: Vuforia/BD_01.xml
+  mCastedBehaviour: {fileID: 1462239221}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1674880866 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
@@ -754,7 +904,7 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 8a9a760f95896c34689febc965510927, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1674880870
+--- !u!114 &1674880871
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -773,42 +923,123 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 1674880868}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
---- !u!114 &1674880873
+--- !u!1001 &1708339363
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 118812896882606013, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 118812896882606013, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_IntArgument
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_Name
+      value: ValveLogo
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957512447180541588, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5932852174287704190, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: mHeight
+      value: 0.665833
+      objectReference: {fileID: 0}
+    - target: {fileID: 5932852174287704190, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: mPreview
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5932852174287704190, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: mAspectRatio
+      value: 0.665833
+      objectReference: {fileID: 0}
+    - target: {fileID: 5932852174287704190, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      propertyPath: mTrackableName
+      value: valve-logo
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1708339368}
+  m_SourcePrefab: {fileID: 100100000, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+--- !u!1 &1708339364 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+  m_PrefabInstance: {fileID: 1708339363}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1708339365 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5932852174287704190, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
+  m_PrefabInstance: {fileID: 1708339363}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708339364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1631628248, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1708339368
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1674880866}
+  m_GameObject: {fileID: 1708339364}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1674880868}
+  mObserverBehaviour: {fileID: 1708339365}
   mHiddenRoot: {fileID: 0}
-  mTargetName: sonic_the_hedgehog
+  mTargetName: valve-logo
   mDatasetName: Vuforia/BD_01.xml
-  mCastedBehaviour: {fileID: 1674880868}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1674880874
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1674880866}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1674880868}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: sonic_the_hedgehog
-  mDatasetName: Vuforia/BD_01.xml
-  mCastedBehaviour: {fileID: 1674880868}
+  mCastedBehaviour: {fileID: 1708339365}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
 --- !u!1 &1808871369 stripped
@@ -828,44 +1059,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1808871374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1808871369}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1808871371}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: bethesda
-  mDatasetName: Vuforia/BD_01.xml
-  mCastedBehaviour: {fileID: 1808871371}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1808871377
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1808871369}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1808871371}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: bethesda
-  mDatasetName: Vuforia/BD_01.xml
-  mCastedBehaviour: {fileID: 1808871371}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1808871378
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -967,13 +1160,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 320858238}
-    - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 320858242}
-    - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 320858241}
+      addedObject: {fileID: 320858239}
   m_SourcePrefab: {fileID: 100100000, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
 --- !u!1001 &2010807969
 PrefabInstance:
@@ -1067,12 +1254,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2129568348}
-    - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2129568352}
-    - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2129568351}
   m_SourcePrefab: {fileID: 100100000, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
 --- !u!1 &2129568343 stripped
 GameObject:
@@ -1091,44 +1272,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &2129568348
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2129568343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 2129568345}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: bio
-  mDatasetName: Vuforia/BD_01.xml
-  mCastedBehaviour: {fileID: 2129568345}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &2129568351
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2129568343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 2129568345}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: bio
-  mDatasetName: Vuforia/BD_01.xml
-  mCastedBehaviour: {fileID: 2129568345}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &2129568352
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1247,12 +1390,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 499736204}
-    - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 499736208}
-    - targetCorrespondingSourceObject: {fileID: 1318992831391035309, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 499736207}
   m_SourcePrefab: {fileID: 100100000, guid: cf289ba7f9912314abc449d106a371ea, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -1265,4 +1402,7 @@ SceneRoots:
   - {fileID: 2010807969}
   - {fileID: 1934154586}
   - {fileID: 1367885144}
+  - {fileID: 608967110}
+  - {fileID: 1708339363}
+  - {fileID: 1462239219}
   - {fileID: 81011017}
